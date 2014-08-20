@@ -1,0 +1,17 @@
+.vagrant*
+bin
+docker/docker
+.*.swp
+a.out
+*.orig
+*.bk
+build_src
+.flymake*
+.idea
+.DS_Store
+.hg/
+.git/
+.svn/
+vendor/pkg/
+pyenv
+Vagrantfile
