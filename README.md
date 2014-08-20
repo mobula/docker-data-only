@@ -48,7 +48,7 @@ $ docker run -volumes-from <my-app>-data <my-app> <path>
 
 Run another application, daemonized (which will in turn make the volume container persistent)
 ```bash
-$ docker run -d -volumes-from pandoc-data -p 8080:8080 http-server /data/html
+$ docker run -d -volumes-from <my-app>-data -p 8080:8080 http-server /data/html
 ```
 
 
