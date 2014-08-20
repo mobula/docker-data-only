@@ -9,13 +9,13 @@ Installation
 1. Build the image:
 
 ```
-$ docker build -t data <path>
+$ docker build -t mobula/data github.com/mobula/docker-data-only
 ```
 
 2. Create the container:
 
 ```
-$ docker run -name <my-app>-data data true
+$ docker run --name myapp_static mobula/data true
 ```
 
 Usage
