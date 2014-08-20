@@ -51,6 +51,15 @@ Run another application, daemonized (which will in turn make the volume containe
 $ docker run -d -volumes-from pandoc-data -p 8080:8080 http-server /data/html
 ```
 
+
+Dokku
+-----
+The problem with Dokku is that it removes any stopped (or unused/unlinked?) containers, 
+so it may inadvertently delete our volume container should the client application be deleted.
+To be continued...
+
+Such a container may be used fo nginx to serve project's static or media assets.
+
 See
 ---
 * http://www.offermann.us/2013/12/tiny-docker-pieces-loosely-joined.html
