@@ -1,7 +1,7 @@
 Docker persistent data container
 ================================
 
-Based on Tom Offermann's...
+Based on [Tom Offermann's](https://github.com/toffer/docker-data-only-container-demo)...
 
 
 Installation
